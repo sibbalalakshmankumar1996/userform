@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<meta charset="UTF-8">
+<meta name="keywords" content="put imp words from ur webpage" >
+<meta name="author" content="put name of author">
+<meta name="description" content="put short descr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+
+<style>
+</style>
+</head>
+<body>
+    <form class="form-container">
+        <fieldset class="myForm">
+            <legend class="form-sec">This is my form</legend>
+            <table >
+                <tr>
+                    <td class="inout-label"><label for="email" >Email: </label></td>
+                    <td><input type="email" class="user-input"  id="email" required></td>
+                </tr>
+                <tr>
+                    <td class="inout-label"><label for="password">Password: </label></td>
+                    <td><input type="password" class="user-input" id="password" required></td>
+                </tr>
+                <tr>
+                    <td class="inout-label"><label for="confirmPass">Confirm Password: </label>
+                    </td><td><input type="password" class="user-input" id="password" required></td>
+                </tr>
+                <tr>
+                    <td class="inout-label"><label for="picture">Upload Your Picture : </label></td>
+                    <td><input type="file"  id="picture" required></td>
+                </tr>
+                
+                <tr>
+                    <td class="inout-label"><label for="gender">Gender : </label></td>
+                    <td>
+                        <input type="radio" class="checked-input" id="male" required name="gender"> <label for="male">Male</label>
+                        <input type="radio" id="female" class="checked-input" required name="gender"> <label for="feMale">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="inout-label"><label for="country">Select Country: </label></td>
+                    <td>
+                        <select class="drop-down-sec">
+                            <option value="India">India</option>
+                            <option value="Japan">India</option>
+                            <option value="United Kingdom" selected>United Kingdom</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="inout-label"><label for="game">Hobby : </label></td>
+                    <td>
+                        <input type="checkbox" class="checked-input" id="cricket" required><label for="cricket">Cricket</label>
+                        <input type="checkbox" class="checked-input" id="football" required><label for="football">Football</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="inout-label"><label>Address</label></td>
+                    <td><textarea rows="6" class="text-area-input" cols="40"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="button" class="submit-btn" value="Submit"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+</html>

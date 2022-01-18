@@ -1,0 +1,46 @@
+html{
+    font-size:10px;
+}
+.form-container{
+    width:50rem;
+}
+.myForm{
+    border:0.1rem solid #451445;
+    font-size:1.6rem;
+}
+.form-sec{
+    border:0.1rem solid #451445;
+    color:#f7f5f2;
+    background:#fac105;
+    padding:0.4rem;
+}
+.inout-label{
+    color:#1f111f;
+    text-align:right;
+}
+.user-input{
+    background:#f5e4ba;
+    height:2rem;
+    outline:none;
+    border:0.1rem solid #451445;
+}
+.checked-input{
+    border:0.1rem solid #7d66f2;
+}
+.drop-down-sec{
+    background:#f5e4ba;
+    height:2rem;
+    width:20rem;
+    outline:none;
+    border:0.1rem solid #451445;
+}
+.text-area-input{
+    background:#f5e4ba;
+    border:0.1rem solid #451445;
+    outline:none;
+}
+.submit-btn{
+    background:#f5e4ba;
+    border:0.1rem solid #451445;
+    padding:0.2rem 0.6rem;
+}
